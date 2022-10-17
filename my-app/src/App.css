@@ -20,3 +20,7 @@
 .align-items-center {
   align-items: center!important;
 }
+.radius-test {
+  border-radius: 20px;
+  background: red;
+}

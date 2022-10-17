@@ -49,6 +49,27 @@ function App() {
                   </div>
               </div>
           </div>
+
+          <div>
+              <div className="radius-test">
+                  a
+                  <br/>
+                  b
+                  <br/>
+                  c
+              </div>
+              <div style={{background: "red"}}>
+                  <div style={{borderRadius: "10px",  border: "1px black solid", overflow: "hidden", background: "red"}}>
+                      <div style={{backgroundColor:"#EEEEEE"}}>
+                          a
+                          <br/>
+                          b
+                          <br/>
+                          c
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
   );
 }
